@@ -10,11 +10,11 @@ namespace PageBasedUI
 
     public class BaseLoadBar : MonoBehaviour, ILoadBar
     {
-        [SerializeField] private Sprite[] _frames;
-        [SerializeField] private Image image;
-        [SerializeField] private int _framePerSecond = 10;
+        [SerializeField] protected Sprite[] _frames;
+        [SerializeField] protected Image image;
+        [SerializeField] protected int _framePerSecond = 10;
 
-        [SerializeField] private bool isActive;
+        [SerializeField] protected bool isActive;
 
         #region ILoadBar
 

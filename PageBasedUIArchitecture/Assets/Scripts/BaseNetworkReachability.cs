@@ -9,7 +9,7 @@ namespace PageBasedUI
 {
     public class BaseNetworkReachability : MonoBehaviour, INetworkReachability
     {
-        [SerializeField] private GameObject errorWindow;
+        [SerializeField] protected GameObject errorWindow;
 
         #region INetworkReachability
 

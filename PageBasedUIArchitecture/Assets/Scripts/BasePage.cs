@@ -11,11 +11,11 @@ namespace PageBasedUI
     {
         [SerializeField] protected BasePageController pageController;
 
-        [SerializeField] private bool isActive;
-        [SerializeField] private bool isUIElementsActive;
-        [SerializeField] private bool isLoadBarActive;
+        [SerializeField] protected bool isActive;
+        [SerializeField] protected bool isUIElementsActive;
+        [SerializeField] protected bool isLoadBarActive;
 
-        [SerializeField] private GameObject[] uiElement;
+        [SerializeField] protected GameObject[] uiElement;
 
         [SerializeField] protected Button backButton;
 

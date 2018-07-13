@@ -9,11 +9,11 @@ namespace PageBasedUI
 {
     public class BasePageController : MonoBehaviour, IPageController
     {
-        [SerializeField] private BaseLoadBar loadBar;
-        [SerializeField] private BaseNetworkReachability networkReachability;
-        [SerializeField] private List<IPage> pages;
+        [SerializeField] protected BaseLoadBar loadBar;
+        [SerializeField] protected BaseNetworkReachability networkReachability;
+        [SerializeField] protected List<IPage> pages;
 
-        private IPageStack pageStack;
+        protected IPageStack pageStack;
 
         #region IPageController
 
